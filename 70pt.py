@@ -51,6 +51,8 @@ class MyApp:
 		drawpad.move(player,0,-15)
 		if y1 <= targety2 and y1 >= targety1:
 		    drawpad.itemconfigure(target, fill="red")
+		else:
+		    drawpad.itemconfig(target, fill="blue")
 		
 
 
